@@ -44,8 +44,8 @@
 
     <h2>Google Play Data Safety</h2>
     <ul>
-      <li><strong>Data collected by the app:</strong> None. Sensor readings are processed on-device only.</li>
-      <li><strong>Data collected by third parties:</strong> Advertising ID and approximate device data (via Google AdMob).</li>
+      <li><strong>Data collected by the app:</strong> None directly. Local sensor data is processed on-device only and never transmitted.</li>
+      <li><strong>Data collected by third-party SDKs:</strong> Advertising ID and approximate device data (via Google AdMob) for ad serving.</li>
       <li><strong>Data encrypted in transit:</strong> Yes (HTTPS for ad requests).</li>
       <li><strong>Users can request data deletion:</strong> No Teksxt-held data to delete. Clear local data via Android Settings → Apps → Sensor Toolbox → Storage → Clear data.</li>
     </ul>
@@ -57,6 +57,39 @@
       <li><strong>Body Sensors</strong> (if available) — to access hardware sensor data for display. No data is transmitted.</li>
       <li><strong>Vibrate</strong> — for optional haptic feedback.</li>
     </ul>
+
+    <h2>Data Retention</h2>
+    <p>
+      <strong>Local data:</strong> Sensor readings, settings, and preferences
+      are stored only on your device. This data is retained until you uninstall
+      the app or manually clear app data via Android Settings → Apps →
+      Sensor Toolbox → Storage → Clear data. We do not store any of this data
+      on our servers.
+    </p>
+    <p>
+      <strong>Third-party data:</strong> Google AdMob may retain advertising
+      identifiers and ad interaction data according to
+      <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's ads data retention policy</a>.
+      Google typically retains ad-related data for up to 24 months. You can
+      reset your Advertising ID at any time via Android Settings → Privacy → Ads.
+    </p>
+    <p>
+      <strong>Analytics data:</strong> We do not use any analytics service
+      that retains user-level data. No personal data is transmitted from the
+      app to Teksxt servers.
+    </p>
+    <p>
+      <strong>Crash reports:</strong> If the app crashes, Google Play Services
+      may send anonymous crash data to the developer console. This data is
+      retained by Google for up to 180 days and contains no personally
+      identifiable information.
+    </p>
+    <p>
+      <strong>Summary:</strong> Teksxt does not retain any personal data.
+      All user data stays on the device. Third-party services (Google AdMob,
+      Google Play Services) retain data according to their own published
+      retention schedules linked above.
+    </p>
 
     <h2>Contact</h2>
     <p>
